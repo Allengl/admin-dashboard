@@ -35,6 +35,9 @@ dependencies:
   '@syncfusion/ej2':
     specifier: ^19.4.48
     version: 19.4.56
+  '@syncfusion/ej2-react-base':
+    specifier: ^19.4.56
+    version: 19.4.56
   '@syncfusion/ej2-react-calendars':
     specifier: ^19.4.48
     version: 19.4.56
