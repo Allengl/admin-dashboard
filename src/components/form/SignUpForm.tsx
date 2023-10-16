@@ -124,7 +124,7 @@ const SignUpForm = () => {
             )}
           />
         </div>
-        <Button className="w-full mt-6" type="submit">
+        <Button className="w-full mt-6 bg-black text-white p-2 rounded-lg mb-6 hover:text-gray hover:border" type="submit">
           注册
         </Button>
       </form>

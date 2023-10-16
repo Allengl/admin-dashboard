@@ -30,6 +30,7 @@
 
 // export default Navbar
 'use client'
+
 import React, { useEffect } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { FiShoppingCart } from 'react-icons/fi';
@@ -114,7 +115,7 @@ const Navbar = () => {
             <p>
               <span className="text-gray-400 text-14">Hi,</span>{' '}
               <span className="text-gray-400 font-bold ml-1 text-14">
-                Michael
+                Admin
               </span>
             </p>
             <MdKeyboardArrowDown className="text-gray-400 text-14" />

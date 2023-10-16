@@ -84,12 +84,12 @@
 // export default SideBar
 'use client'
 import React from 'react';
-import { SiShopware } from 'react-icons/si';
 import { MdOutlineCancel } from 'react-icons/md';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 import { links } from '../app/data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
 import Link from 'next/link';
+import { BiLogoFirebase } from 'react-icons/bi';
 
 const Sidebar = () => {
   const { activeMenu, setActiveMenu, screenSize } = useStateContext();
@@ -112,7 +112,8 @@ const Sidebar = () => {
         <>
           <div className="flex justify-between items-center">
             <Link href="/" onClick={handleCloseSideBar} className="items-center gap-3 ml-3 mt-4 flex text-xl font-extrabold tracking-tight dark:text-white text-slate-900">
-              <SiShopware /> <span>Shoppy</span>
+              <BiLogoFirebase className="text-2xl"/> 
+                <span>Alyx</span>
             </Link>
             <TooltipComponent content="Menu" position="BottomCenter">
               <button

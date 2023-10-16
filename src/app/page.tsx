@@ -10,7 +10,7 @@ const Home = async() => {
   return (
     <div>
       <h1 className='text-xxl'>Home</h1>
-      <Link className={buttonVariants()}  href='/admin'>Open My Admin</Link>
+      <Link className={buttonVariants()}  href='/sign-in'>Open My Admin</Link>
     
       <h2>Client Sesion</h2>
       <User /> 
