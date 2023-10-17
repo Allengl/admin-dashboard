@@ -19,6 +19,7 @@
     "@radix-ui/react-slot": "1.0.2",
     "@radix-ui/react-toast": "1.1.5",
     "@syncfusion/ej2": "23.1.40",
+    "@syncfusion/ej2-base": "23.1.41",
     "@syncfusion/ej2-react-calendars": "23.1.40",
     "@syncfusion/ej2-react-charts": "23.1.40",
     "@syncfusion/ej2-react-dropdowns": "23.1.40",

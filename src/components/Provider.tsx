@@ -6,6 +6,10 @@ import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
 import { classNames } from "primereact/utils";
 
 import { FC } from "react"
+import { registerLicense } from '@syncfusion/ej2-base';
+
+registerLicense('Ngo9BigBOggjHTQxAR8/V1NHaF5cXmVCf1NpR2BGfV5yd0VAal5YTnVYUiweQnxTdEZiWX5YcHJXT2NbUkR2Vw==');
+
 
 interface ProviderProps {
   children: React.ReactNode
